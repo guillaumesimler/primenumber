@@ -18,10 +18,19 @@ It is a brute force version. The algorythm checks all new number against all kno
 
 Time needed until 200 000 (on my desktop): 24,8 s
 
-
 ----
 Second Version
 ----
 It is still the brute force version, but uses a "for - in" loop
 
-Time needed until 200 000 : 24,8 s
+Time needed until 200 000 : 8,7 s
+
+----
+Third Version
+----
+The algorythm is optimized. You don't need to test all elements, but only until the first factor becomes bigger than the second (Communative property).
+
+Time needed until 200 000 : 0,7 s   -> A great lesson !
+
+
+

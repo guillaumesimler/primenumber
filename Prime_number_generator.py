@@ -5,10 +5,11 @@ More a test for algorythms than anything else'''
 def prime_check(figu, input_list):
 # not planed for list below 3
 	for n in input_list:
-		if figu % n == 0:
+		if (figu % n) == 0:
 			return False
 
-	return True	
+		if figu / n < n:
+			return True	
 
 def prime_generator(figu):
 	output_r = []
